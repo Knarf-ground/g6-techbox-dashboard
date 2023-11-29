@@ -1,20 +1,17 @@
-import React from 'react';
-import Title from '../components/Title';
-import Sidebar from '../components/Sidebar';
-import Footer from '../components/Footer';
-
-
-const Home = () => {
-  return (
-    <>
-      
-      <div className="dashboard">
-        <Title />
-        <Sidebar />
-        <Footer />
-      </div>
-    </>
-  )
+import React from "react";
+import TitleHome from "../Component/TitleAnimado";
+import Waves from "../Component/Waves";
+import Links from "../Component/Link";
+function Home() {
+    return (
+        <>
+        <section className="ContentHome">
+            <TitleHome />
+            <Links />
+            <Waves />
+        </section>
+        </>
+    );
 }
 
-export default Home
+export default Home;
